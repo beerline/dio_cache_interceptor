@@ -164,8 +164,6 @@ class IsarCacheStore extends CacheStore {
         directory: directory,
         name: name,
       );
-
-      await clean(staleOnly: true);
     }
 
     return _isar!;
